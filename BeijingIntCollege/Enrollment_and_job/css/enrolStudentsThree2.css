@@ -1,0 +1,103 @@
+/*学生志愿左部分*/
+.student_wish_left{
+	border-right: 12px solid white;
+	background-image: url(../img/major02.jpg);
+	position: relative;
+}
+/*标题*/
+.student_wish_title{
+	font-size: 23px;
+	text-align: center;
+	position: relative;
+	top: 39px;
+	padding-left: 15px;
+}
+/*时间*/
+.student_wish_time{
+	position: relative;
+	text-align: center;
+	top: 41px;
+}
+/*分享*/
+.student_wish_share{
+	width:196px;
+	height:21px;
+	margin:0 auto;
+	background-color:white;
+	position:relative;
+	top:45px;
+	padding:2px 3px 3px;
+}
+/*摘要*/
+.student_wish_abstract{
+	width: 87%;
+	padding: 12px 18px;
+	margin: 0 auto;
+	border: 1px solid #CCD3DD;
+	position: relative;
+	top: 62px;
+}
+/*内容*/
+.student_wish_content{
+    width: 87%;
+	margin: 0 auto;
+	position: relative;
+	top: 62px;
+	padding-bottom: 58px;
+}
+/*评论*/
+#commentThreeChild{
+	background-color:white;
+	position:relative;
+	float:left;
+	color:#333;
+	padding-top:19px;
+	position:relative;
+	padding-bottom:133px;
+}
+/*学生志愿右部分*/
+.student_wish_right{
+	border-right: 12px solid white;
+}
+.student_wish_article{
+	height: 286px;
+	border: 1px solid #CCD3DD;
+	position: relative;
+	margin-top: 13px;
+}
+.wish_article_top{
+	height: 36px;
+	border-bottom: 1px solid #CCD3DD;
+	background:url(../img/misc.png) 0px -85px no-repeat; 
+	position: relative;
+}
+.wish_article_left{
+	background: url(../img/icon.png) 7px -408px no-repeat;
+    color: #164575;
+}
+.wish_article_right{
+	background: url(../img/icon.png) 7px -458px no-repeat;
+    color: #164575;
+}
+.student_wish_right .student_wish_article ul{
+	list-style-type: none;
+}
+.student_wish_right .student_wish_article ul li{
+	display: block;
+	float: left;
+	width: 94%;
+	line-height: 29px;
+	height: 29px;
+	border-bottom: 1px dashed #CCD3DD;
+	background: url(../img/misc.png) 10px -181px no-repeat;
+	/*padding: 0 3.5% 0 7%;*/
+}
+.student_wish_right .student_wish_article ul li a{
+	overflow: hidden;
+}
+.article_wish_position{
+	position: relative;
+	left: 22px;
+	font-size: 12px;
+	font-family:"Microsoft YaHei";
+}

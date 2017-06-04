@@ -1,0 +1,219 @@
+/*学生志愿左部分*/
+.student_wish_left{
+	border-right: 12px solid white;
+	background-image: url(../img/major02.jpg);
+	position: relative;
+}
+.container .row .cap{
+	width:1000px;
+	height:28px;
+	margin-bottom:10px;
+	line-height: 28px;
+	background:url(../img/mbx01.png) no-repeat ;
+}
+ul{
+	list-style-type: none;
+	/*margin-left:-25px;*/
+
+}
+.container .row .cap ul li{
+	float:left;
+	font-family: "宋体";
+	margin-right:5px;
+	font-size:13px;
+}
+.container .row .cap ul li:nth-child(1){
+    width:50px;
+    height:28px;
+	background:url(../img/misc.png) no-repeat;
+	background-position:0px -142px;
+	padding-left: 17px;
+}
+/*标题*/
+.student_wish_title{
+	font-size: 23px;
+	text-align: center;
+	position: relative;
+	top: 39px;
+	padding-left: 15px;
+}
+/*时间*/
+.student_wish_time{
+	position: relative;
+	text-align: center;
+	top: 41px;
+}
+/*分享*/
+.student_wish_share{
+	width:196px;
+	height:21px;
+	margin:0 auto;
+	background-color:white;
+	position:relative;
+	top:45px;
+	padding:2px 3px 3px;
+}
+/*摘要*/
+.student_wish_abstract{
+	width: 87%;
+	padding: 12px 18px;
+	margin: 0 auto;
+	border: 1px solid #CCD3DD;
+	position: relative;
+	top: 62px;
+}
+/*内容*/
+.student_wish_content{
+    width: 87%;
+	margin: 0 auto;
+	position: relative;
+	top: 62px;
+	padding-bottom: 58px;
+}
+/*评论*/
+#commentThreeChild{
+	background-color:white;
+	position:relative;
+	float:left;
+	color:#333;
+	width:100%;
+	padding-top:19px;
+	position:relative;
+	padding-bottom:133px;
+}
+/*轮播*/
+	/*margin-left:-25px;*/
+.news .sl {
+	overflow: hidden;
+	clear: both;
+	border: 1px solid #CCD3DD;
+	margin: 0 0 10px;
+}
+
+.news .sl,.news .sl .slideshow,.news .sl .slideshow i,
+.news .sl .slideshow i a,.news .sl .slideshow i a img {
+	display: block;
+	width: 100%;
+	height: 228px;
+}
+
+.news .sl .cycle-pager {
+	position: absolute;
+	bottom: 0;
+	z-index: 500;
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+.news .sl .slideshow .cycle-slide {
+	transition: opacity 0.2s ease 0s;
+}
+
+.news .sl .cycle-pager span {
+	font-family: arial;
+	font-size: 50px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	color: #fff;
+	cursor: pointer;
+	opacity: 0.85;
+	margin: 0 2px;
+	line-height: 46px;
+	height: 46px;
+	display: inline-block;
+}
+
+.news .sl .cycle-pager .cycle-pager-active {
+	color: #333;
+}
+
+/*学生志愿右部分*/
+.student_wish_right{
+	border-right: 12px solid white;
+}
+.student_wish_article{
+	height: 286px;
+	border: 1px solid #CCD3DD;
+	position: relative;
+	margin-top: 13px;
+}
+.wish_article_top{
+	height: 36px;
+	border-bottom: 1px solid #CCD3DD;
+	background:url(../img/misc.png) 0px -85px no-repeat; 
+	position: relative;
+}
+.wish_article_left{
+	background: url(../img/icon.png) 7px -408px no-repeat;
+    color: #164575;
+}
+.wish_article_right{
+	background: url(../img/icon.png) 7px -458px no-repeat;
+    color: #164575;
+}
+.student_wish_right .student_wish_article ul{
+	list-style-type: none;
+}
+.student_wish_right .student_wish_article ul li{
+	display: block;
+	float: left;
+	width: 94%;
+	line-height: 29px;
+	height: 29px;
+	border-bottom: 1px dashed #CCD3DD;
+	background: url(../img/misc.png) 10px -181px no-repeat;
+	/*padding: 0 3.5% 0 7%;*/
+}
+.student_wish_right .student_wish_article ul li a{
+	overflow: hidden;
+}
+.article_wish_position{
+	position: relative;
+	left: 22px;
+	font-size: 12px;
+	font-family:"Microsoft YaHei";
+}
+.row .col-md-12 .row .col-md-12 h3{
+	font-size:14px;
+	font-family: "宋体";
+	font-weight: bold;
+}
+.row .col-md-12 .row .col-md-12 #comment{
+	width:100%;
+}
+.row .col-md-12 .row .col-md-3 button{
+	width:100%;
+	height:38px;
+	font-size:20px;
+	background-color: white;
+	border:0;
+}
+.row .col-md-12 .row .col-md-12 #allComment{
+	border-top:1px solid lightgray;
+	border-bottom:1px solid lightgray;
+	overflow: hidden;
+	height:173px;
+}
+.row .col-md-12 .row .col-md-12 #allComment .sub_div{
+	width:640px;
+	height:34px;
+	line-height: 34px;
+	border-bottom:1px solid lightgray;
+}
+.row .col-md-12 .row #Up{
+	width:5%;
+	text-align: center;
+	cursor:pointer;
+}
+.row .col-md-12 .row #page li{
+	float:left;
+}
+.row .col-md-12 .row #Down{
+	width:5%;
+	cursor:pointer;
+	text-align: center;
+}
+
+

@@ -1,0 +1,324 @@
+ *{
+   padding: 0;
+   margin: 0;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+.content{
+  width: 100%;  
+}
+.tow_content{
+  width: 1000px;
+  /*height: 1552px;*/
+  overflow: hidden;
+  margin: 0 auto;
+}
+.chm_tag{
+  width: 100%;
+  height: 28px;
+  background-image: url(../img/mbx01.png);
+  color: #333;
+  background-size: 100% 100%;
+  line-height: 28px;
+  font-size: 12px;
+  padding-left:30px;  
+  margin: 10px 0;
+}
+.home{
+  float: left;
+  background-image: url(../img/misc.png);
+  background-position:0px -142px;
+  padding: 0 0 0 20px;
+  color: #333;
+}
+.zhinan{
+ width: 29%;
+ margin-bottom: 10px;
+ background-image: url(../img/zhinan.png);
+
+}
+#riqi_id{
+  opacity: 0;
+}
+.zhinan_ti{
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #fff;
+  padding-left:20px; 
+  font-family: "microsoft yahei";
+  background-image: url(../img/enroll02.png);
+}
+.zhinan_formation{
+  width: 100%;
+  padding-left: 20px;
+  font-size: 12px; 
+  font-family: simsun;
+}
+.zhinan_formation li{
+  list-style: none;
+  width: 100%;
+  line-height: 25px;
+}
+.zhinan_formation li a{
+  color: rgb(178, 34, 34);
+  font-size: 14px;
+}
+.fengei{
+  margin-bottom: 60px;
+}
+.dianhua{
+  width: 29%;
+  height: 211px;
+  position: relative;
+  background-color: red;
+}
+.dianhua img{
+width:100%;
+height: 100%;
+}
+.dianhua .onlineZi{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  margin-left: -87px;
+  width: 194px;
+  height: 37px;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 37px;
+  z-index: 100;
+}
+.dianhua .onlineZi a{
+    text-decoration: none;
+    color: #333;
+}
+.dianhua .onlineZi a:hover{
+    color: #333;
+}
+.left{
+  float: left;
+  border: 1px solid #CCD3DD;
+}
+.form-control{
+  border: 1px solid #B2CFDA;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);
+  border-radius: 3px;
+}
+.select_style{
+  border: 1px solid #B2CFDA;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);
+  height: 27px;
+  line-height: 27px;
+  border-radius: 3px;
+  font-size: 13.3333px;
+}
+.radio-inline{
+  font-size: 12px;
+}
+.nianZi{
+  font-size: 12px;
+}
+.from_div{
+  float: right;
+  width: 70.2%;
+  font-size: 14px;
+  background-image: url(../img/major02.jpg);
+}
+.from_ti{
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  color: #fff;
+  padding-left:20px; 
+  min-width: 380px;
+  font-size: 16px;
+  font-family: "microsoft yahei";
+  background-image: url(../img/enroll02.png);
+}
+.from_ti span{
+  font-size: 12.8px;
+  color: #999;
+  padding: 0 0 0 1em;
+}
+.from_text{
+  padding: 3% 6%;
+  overflow: hidden;
+  border: 1px solid #CCD3DD;
+  font-size: 1em;
+  font-family: simsun;
+}
+#xian{
+      width:548px;
+      height: 1px;
+      background-color: #ccc;
+      margin: 0 auto;
+      margin-bottom:16px; 
+      display: none;
+}
+.control-label{
+  font-size: 14px;
+  color: #333;
+  font-weight: normal;
+  white-space: nowrap;
+    width: 21%;
+}
+.yanzheng{
+  color: #f60;
+  font-size: 9px;
+  position: relative;
+  top: 8px;
+  opacity: 0;
+
+}
+.kuang_width{
+  width: 400px;
+  resize:none;
+}
+.tijaiohe{
+  width: 100%;
+  height: 90px;
+  position: relative;
+}
+.tijiao{
+  background: url(../img/button.png) 0 -235px;
+    width: 196px;
+    height: 37px;
+    display: block;
+    font-family: "microsoft yahei";
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    border: 0;
+    text-indent: 15px;
+    cursor: pointer;
+    position:absolute;
+    left: 50%;
+    bottom:20px;
+    margin-left: -98px;
+}
+@media screen and (max-width:1037px) {
+      .tow_content{
+        width: 100%;
+      }
+
+      .yanzhan1{
+        width: 100%;
+        margin-left: 22%;
+      }
+      .control-label{
+         white-space:normal;
+         }
+}
+@media screen and (max-width:655px) {
+      #xian{
+        display: block;
+        width:90%;
+      }
+       .zhushi{
+        display: none;
+      }
+        .control-label{
+         white-space:nowrap;
+         }
+      .juli{
+        margin-left: 5%;
+      }
+      .geli{
+        margin-left: 5%;
+      }
+      .zhinan{
+        width: 100%;
+        height: 300px;
+      }
+      .dianhua{
+        width: 100vw;
+        height: 71vw;
+      }
+      .tow_content{
+        width: 100%;
+      }
+      .from_div{
+        width: 100%;
+      }
+    }
+@media screen and (max-width:380px) {
+      .from_div{
+       width: 100%;
+      }
+      .juli{
+        margin-left: 5%;
+        width: 90%;
+      }
+      
+    }
+
+   /* 分享开始*/
+         .share {
+  position: fixed;
+  top: 16%;
+  left: 0px;
+
+}
+.share_box {
+  width: 0px;
+  height: 325px;
+  color: rgb(90,90,90);
+  position: relative;
+  background-color: red;
+overflow: hidden;
+}
+.share_right {
+    position: absolute;
+    right: -27px;
+    top: 17%;
+    width: 30px;
+    height: 90px;
+    background-color: rgb(70,119,230);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.share_right p {
+margin-top: 19px;
+  font-size: 17px;
+  color: white;
+}
+.share_box .share_top {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(246,246,246);
+  line-height: 30px;
+}
+
+.share_box .share_center {
+  width: 100%;
+  height: 265px;
+  overflow: hidden;
+  background-color: white;
+}
+.share_box .share_center .share_platform {
+   width: 100%;
+ height: 100%;
+ margin-left: 18px;
+}
+.share_box .share_center .share_platform a {
+  display: inline-block;
+  width: 88px;
+  height: 21px;
+  line-height: 21px;
+text-indent: 10px;
+}
+.share_box .share_bottom {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(246,246,246);
+  
+}
+.share_box .share_bottom a{ 
+float: right;
+}

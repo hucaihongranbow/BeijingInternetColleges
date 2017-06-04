@@ -1,0 +1,94 @@
+
+a ,a:hover {
+	text-decoration: none;
+	color: #333;
+}
+.container {
+	max-width: 1000px;
+}
+body {
+	min-width: 330px;
+	overflow-x: hidden;
+}
+/*头部开始*/
+header {
+	padding-top: 30px;
+	background: url(../img/header01.jpg) no-repeat;
+	background-size: cover;
+}
+header form > div {
+	border: 5px solid #074887;
+}
+header form > div > span {
+	cursor: pointer;
+}
+header ul.container-fluid {
+	background-color: #104F96;
+	border: none;
+}
+header div#divNav a ,header ul.container-fluid div.navbar-header > a {
+		color: #fff;
+	}
+header li.dropdown ul > li > a {
+	background-color: #283B63;
+	margin-bottom: 1px;
+}
+header li.dropdown ul > li > a.lastChild {
+	margin-bottom: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	header div#divNav a ,header ul.container div.navbar-header > a.navbar-brand {
+		font-size: 1em;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	header div#divNav a ,header ul.container-fluid div.navbar-header > a {
+		font-size: 1.45em;
+	}
+}
+@media screen and (min-width: 1200px) {
+	header div#divNav a ,header ul.container-fluid div.navbar-header > a {
+		font-size: 1.45em;
+	}
+}
+@media screen and (min-width: 768px) {
+	header div#divNav a.apply {
+		background-color: #FCC433;
+		color: black;
+	}
+	header > ul{
+		position: relative;
+		top: 10px;
+	}
+}
+@media screen and (max-width: 768px) {
+	header {
+		min-height: 246px;
+	}
+	footer {
+		text-align: center;
+	}
+}
+header div#divNav a:hover ,header ul.container-fluid div.navbar-header > a:hover {
+	background-color: #283B63;
+	color: #fff;
+}
+/*头部结束*/
+/*底部开始*/
+footer {
+	background: url('../img/footer01.jpg') no-repeat;
+	background-size: cover;
+	padding: 30px 0;
+}
+footer ul li a {
+	color: #333;
+}
+footer img#weixin_scan {
+	position: absolute;
+	top: -20px;
+	left: -2px;
+	max-height: 136px;
+	display: none;
+	_display:none;
+}
+/*底部结束*/

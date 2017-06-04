@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+	margin: 0;
+
+	text-decoration: none;
+	list-style: none;
+
+	font-family: "microsoft yahei";
+	font-weight: normal;
+}
+
+
+/*中间 内容盒子*/
+.school.container{
+	padding: 0;
+
+	font-family: "microsoft yahei";
+	font-weight: normal;
+	margin-top: 20px;
+
+	/*border: 1px red solid;*/
+}
+
+@media (min-width: 992px) 
+{
+	.school.container{
+		width: 900px;
+	}
+}
+
+.school.container .row{
+	margin-left: 0;
+	width: 100%;
+}
+
+/*1 专业标题*/
+.school .main_title{
+	height: 28px;
+
+	background-image: url(../img/mbx01.png);
+	background-repeat: no-repeat;
+	background-size: 100% 28px;
+
+	line-height: 28px;
+	overflow: hidden;
+
+	margin-bottom: 10px;
+	width: 1028px;
+
+	/*border: 1px red solid;*/
+	position: relative;
+	left: -64px;
+}
+
+/*小图标 屋子*/
+.main_title .home{
+	background: url(../img/misc.png) 27px -149px no-repeat;
+    padding: 0px 0 0 45px;
+    color: #333;
+
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+}
+
+/*返回首页 链接*/
+.main_title  a{
+	color: #333;
+    text-decoration: none;
+}
+
+
+/*大图*/
+.container .small_img{
+	border: 1px #CCD3DD solid;
+
+	background-image: url(../img/major02.jpg);
+
+	padding: 18px;
+
+
+}
+
+/*文本描述区*/
+.container .title{
+	/*border: 1px red solid;*/
+	/*margin-top: 10px;*/
+	margin-bottom: 8px;
+
+	padding: 0px 22px;
+}
+
+
+
+.title h3:nth-child(1){
+	color: #000;
+	font-size: 16px;
+	/*font-weight: bold;*/
+
+	/*margin-bottom: 4px;*/
+	/*font-family: "microsoft yahei";*/
+
+
+}
+
+
+/*小图轮播*/
+.container .big_img{
+	border: 1px #CCD3DD solid;
+
+	background-image: url(../img/major02.jpg);
+
+	padding: 15px 0;
+	position: relative;
+
+	height: 115px;
+
+}
+
+.big_img div{
+	float: left;
+}
+
+/*左按钮*/
+.big_img .left{
+	width: 54px;
+	height: 83px;
+
+	/*padding: 10px;*/
+
+	background: #fff url(../img/environment01.png) 50% 50% no-repeat;
+	background-size: 13px 58px;
+
+	margin-left: 48px;
+
+	cursor: pointer;
+}
+
+
+/*右按钮*/
+.big_img .right{
+	position: absolute;
+	right: 48px;
+	top: 15px;
+
+	width: 54px;
+	height: 83px;
+
+	/*padding: 10px;*/
+
+	background: #fff url(../img/environment02.png) 50% 50% no-repeat;
+	background-size: 13px 58px;
+
+	margin-left: 48px;
+
+	cursor: pointer;
+}
+
+
+/*轮播区*/
+.big_content{
+	/*border: 1px red solid;*/
+	height: 100%;
+	width: 690px;
+
+	position: relative;
+	overflow: hidden;
+	left: 2px;
+	top: 1px;
+}
+
+.big_content ul{
+	position: absolute;
+	left: 0px;
+	/*overflow: hidden;*/
+
+	width: 314%;
+}
+
+
+
+.big_content  img{
+	width: 124px;
+	height: 81px;
+
+	float: left;
+	margin-right: 17px;
+
+	opacity: 0.5;
+}
+
+.big_content  img:nth-child(1){
+	opacity: 1;
+}
+
+.big_content  img:nth-child(15){
+	margin-right: 0;
+}
+
+
+/*变化*/
+@media (max-width: 1199px) 
+{   
+	.school .main_title{
+		height: 28px;
+		margin-top: 0;
+		line-height: 28px;
+		width: 100%;
+
+		height: auto;
+
+		left: 0;
+
+		font-size: 1.1em;
+	}
+
+	.small_img{
+		padding: 18px;
+		width: 100%;
+	}
+
+	.big_img{
+		width: 100%;
+	}
+
+	.big_content {
+		/*width: 77%;*/
+		overflow: hidden;
+	}
+
+	.big_content ul{
+		width: 324%;
+	}
+
+	.big_content ul img{
+		float: left;
+		/*width: 100px;*/
+	}
+}
+
+@media (max-width: 992px) 
+{
+	.small_img{
+		width: 100%;
+		/*height: auto;*/
+		padding: 18px;
+	}
+
+	.big_img{
+		/*display: none;*/
+
+		/*width: 750px;*/
+		width: 100%;
+	}
+
+	.big_img .left,.right{
+		display: none;
+	}
+
+	.big_img .big_content{
+		/*width: 543px;*/
+		/*width: 100%;*/
+		margin-left: 30px;
+	}
+
+	.big_content img{
+		/*width: 100px;*/
+	}
+
+}
+
+@media (max-width: 768px) 
+{  
+	.big_img {
+		display: none;
+		/*width: 100%;*/
+	}
+}
+
+
+
+
+

@@ -1,0 +1,672 @@
+﻿/*招考指南-学院简介*/
+span.public_icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+}
+span.guide_icon {
+	/*招考指南标志*/
+	background: url("../img/icon.png") -3px -216px no-repeat;
+}
+span.intro_icon {
+	/*招考指南标志*/
+	background: url("../img/icon.png") -3px -267px no-repeat;
+}
+
+a.title_link {
+	/*“招考指南链接”*/
+    color: #164575;
+    font-family: "microsoft yahei";
+    font-size: 1.2em;
+    padding-left: 6px;
+}
+div.guide_bg {
+	/*招考指南标题背景图*/
+	background: url("../img/misc.png") 0 -85px no-repeat;
+}
+div.title_height {
+	/*标题高度*/
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #CCD3DD;
+	border-bottom: none;
+}
+div.guide_content {
+	/*招考指南内容背景图*/
+	background: url("../img/enroll01.jpg") no-repeat;
+	background-size: cover;
+	border: 1px solid #CCD3DD;
+	padding: 20px 0 60px;
+}
+div.guide_content div.guide_tele p {
+	/*招考指南咨询栏*/
+    line-height: 1.5;
+    text-indent: 30px;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-bottom: 1px solid #CCD3DD;
+}
+div.guide_content div.guide_link {
+	/*招考指南链接栏上下间距*/
+	padding: 50px 0 10px;
+}
+div.guide_content div.guide_link a {
+	/*招考指南链接栏*/
+    line-height: 1.3;
+    color: rgb(178, 34, 34);
+    font-size: 14px;
+}
+a.guide_state {
+	/*招生动态*/
+    background: url("../img/button.png");
+    width: 262px;
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+    font-family: "microsoft yahei";
+    line-height: 38px;
+    text-align: center;
+    color: #333;
+    font-size: 1.2em;
+}
+div.intro_content {
+	/*学院简介内容部分*/
+	border: 1px solid #CCD3DD;
+	padding-top: 20px;
+}
+div.intro_text p {
+	/*学院简介文字信息内容首行缩进*/
+	text-indent: 2em;
+}
+/*学院简介轮播开始*/
+@media screen and (min-width: 1200px) {
+	div.intro_pic .scroll_img img {
+		width: 180px;
+		height: auto;
+		margin-right: 6px;
+	}
+	div.intro_btn {
+	    width: 11px;
+	    height: 146px;
+	    background: url("../img/button.png");
+	    cursor: pointer;
+	    position: relative;
+	}
+	div.intro_pic .scroll_img {
+		width: 550px;
+		position: relative;
+		overflow: hidden;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	div.intro_pic .scroll_img img {
+		width: 176px;
+		height: auto;
+		margin-right: 8px;
+	}
+	div.intro_btn {
+	    width: 11px;
+	    height: 146px;
+	    background: url("../img/button.png");
+	    cursor: pointer;
+	    position: relative;
+	}
+	div.intro_pic .scroll_img {
+		width: 550px;
+		position: relative;
+		overflow: hidden;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	div.intro_pic .scroll_img img {
+		width: 200px;
+		height: auto;
+		margin-right: 4px;
+	}
+	div.intro_btn {
+	    width: 11px;
+	    height: 160px;
+	    background: url("../img/button.png");
+	    cursor: pointer;
+	    position: relative;
+	    top: 5px;
+	}
+	div.intro_pic .scroll_img {
+		width: 605px;
+		position: relative;
+		overflow: hidden;
+	}
+	
+}
+div.intro_btn_left {
+	background-position: 0 -74px;
+	left: 30px;
+}
+div.intro_btn_right {
+	background-position: -42px -74px;
+	left: -12px;
+}
+div.intro_scroll {
+	padding: 20px 0 15px;
+}
+div.intro_pic {
+	overflow: hidden;
+}
+div.intro_pic .scroll_img ul {
+	position: relative;
+	width:300%;
+	padding: 0;
+	margin: 0;
+}
+div.intro_pic .scroll_img ul li {
+	display: inline-block;
+	position: relative;
+}
+
+/*学院简介轮播结束*/
+/*专业设置*/
+div.major_bg {
+	/*标题栏背景图*/
+	min-height: 45px;
+	line-height: 45px;
+	margin:8px -15px 0;
+	background: url("../img/major01.png") no-repeat;
+}
+span.major_icon {
+	/*专业介绍标志*/
+	background: url("../img/icon.png") -3px -312px no-repeat;
+}
+@media screen and (max-width: 1199px) {
+	ul#major-tab {
+		background: #3D5797;
+	}
+	div.major_bg {
+	/*标题栏背景图*/
+		min-height: 36px;
+		line-height: 36px;
+		background: url("../img/misc.png") 0 -85px no-repeat;
+	}
+}
+ul#major-tab li {
+	line-height: 47px;
+	margin: 0;
+	padding: 0;
+}
+ul#major-tab li a {
+	height: 47px;
+	line-height: 47px;
+	padding: 0;
+	border-radius: 0;
+	color: #fff;
+}
+div.major_padding {
+	max-height:341px;
+	padding: 10px;
+	border: 1px solid #CCD3DD;
+	background: url("../img/major02.jpg") no-repeat;
+	background-size: cover;
+}
+div.major_padding h3,div.major_padding p {
+	padding: 0;
+	margin: 0;
+}
+div.major_padding h3 {
+	font-size: 0.95em;
+	font-weight: bold;
+	font-family: "simsun";
+	line-height: 200%;
+}
+div.major_padding p {
+	text-indent: 2em;
+	font-size: 0.95em;
+	font-family: "simsun";
+}
+div.major_padding p.mini_title {
+	text-indent: 4em;
+}
+/*专业设置结束*/
+/*教学优势开始*/
+html .Dg,body .Dg{
+    font-size: 1em;
+    font-family: "microsoft yahei";"
+}
+.Dg ul{
+	padding:0;
+	margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+}
+ul,ol{
+	padding: 0;
+	margin:0;
+	list-style: none;
+}
+.Dg_nav_top{
+	padding:0;
+	height:36px;
+	background: url(../img/misc.png) 0 -85px no-repeat;
+}
+.Dg_nav_top>h2{
+	text-indent:33px;
+	font-size: 1.2em;
+	font-family: 'microsoft yahei';
+	color:#164575;
+	background: url(../img/icon.png) 7px -353px no-repeat;
+	line-height:36px;
+}
+.Dg_nav1>h2>a,.Dg_nav2>h2>a{
+	color:#fff;
+}
+.Dg_nev>ul{
+	padding:1% 6% 0;
+	overflow: hidden;
+	list-style: none;
+}
+.Dg_nev>ul li{
+	height: 28px;
+    border-bottom: 1px dashed #DCDCDC;
+    line-height: 28px;
+    padding: 0 3.5% 0 7%;
+    background: url(../img/misc.png) 10px -181px no-repeat;
+    overflow: hidden;
+    font-size: 1em;
+}
+.Dg_nav1{
+	height:42px;
+	line-height:42px;
+	background: url(../img/misc.png);
+	padding-right:8px;
+}
+.Dg_nav1>h2{
+	background: url(../img/icon.png) 7px -36px no-repeat;
+}
+.Dg_nav2{
+	height:42px;
+	background: url(../img/misc.png) 0 -42px;
+	margin-right:8px;
+}
+.Dg_nav2>h2{
+	background: url(../img/icon.png) 7px -87px no-repeat;
+}
+.col-sm-4,.col-xs-12{
+	padding:0;
+}
+.Dg_nav{
+	padding-right:8px;
+	margin-bottom:10px;
+}
+.Dg_nev{
+	box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+.Dg_txt1,.Dg_txt2{
+    border: 1px solid #D9DEE6;
+    background: url(../img/advantage01.png) no-repeat;
+    background-size: 100% 100%!important;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    zoom: 1;
+    overflow: hidden;
+    color: #333;
+    padding: 6% 6% 0;
+    border-top: 0;
+}
+.Dg_txt1 h3,.Dg_txt2 h3{
+	font-weight: bold;
+    text-indent: 2em;
+    font-size: 1.2em;
+    vertical-align: baseline;
+    line-height:1.58;
+}
+.Dg_txt1 p,.Dg_txt2 p{
+	text-indent: 2em;
+    text-align: justify;
+    font-weight: normal;
+    vertical-align: baseline;
+    line-height:1.6;
+}
+.Dg_txt2{
+	background: url(../img/teacher01.jpg) no-repeat;
+}
+.Dg_nav li span {
+    float: left;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.Dg_Img_1,.Dg_Text_1{
+	padding:20px 0 20px 0 ;
+    background: url(../img/major02.jpg);
+}
+.Dg_Img_1 img,.Dg_Text_1 img{
+	display: block;
+	margin: 0 auto;
+}
+.Dg_Text_1 h3{
+	font-weight: bold;
+    font-size: 1.2em;
+    line-height:30px;
+    font-family: "microsoft yahei";
+}
+.Dg_Text_1 p{
+	color: #4e4e4e;
+    font-size: 1em;
+    text-indent: 2em;
+    line-height:1.8;
+}
+.Dg_line{
+	position: absolute;
+	z-index: 100;
+	border-top:1px solid #CCD3DD;
+	width:95%;
+	left:50%;
+	transform: translateX(-50%);
+}
+.Dg_po{
+	position:relative;
+}
+.Dg_bor{
+	box-shadow: 0 0 3px rgba(0,0,0,.2);
+	padding-left: 15px;
+    	padding-right: 15px;
+    	margin-left: -15px;
+    	margin-right: -15px;
+	margin-top:10px;
+}
+.Dg_nav_top{
+	border-bottom: 1px solid #CCD3DD;
+}
+.Dg_nav1,.Dg_nav2{
+	border:none;
+}
+.Dg_Gd{
+	float: right;
+	font-size:0.6em; 
+	height:36px;
+	margin-right:10px; 
+}
+.Dg{
+	margin-top:10px;
+}
+.Dg_as{
+	margin-right:-16px;
+}
+@media screen and (max-width:768px){
+	.Dg_nav{
+		padding:0px;
+	}
+    .Dg_Img_1,.Dg_Text_1{
+	    height:auto;
+	}
+	.Dg_Text_1{
+		padding:0 ;
+	}
+	.Dg_Text_1 h3{
+		padding:0 6%;
+		font-size: 1.2em;
+	}
+	.Dg_txt1,.Dg_txt2{
+		padding:6%;
+	}
+	.Dg_Text_1 p{
+		padding:0 6%;
+		font-size: 1em;
+	}
+	.Dg_txt1 h3,.Dg_txt2 h3{
+		font-size:1.2em; 
+	}
+}
+.Dg_center{
+	margin:0 auto;
+	max-width:1000px;
+}
+@media screen and (min-width:768px){
+	.Dg_txt1,.Dg_txt2,.Dg_nev>ul {
+    	height:211.55px;
+    }
+	.Dg_Img_1,.Dg_Text_1{
+	    height:265px;
+	    overflow:hidden; 
+	}
+	.Dg_Text_1{
+		padding:20px 5% 20px 0 ;
+	}
+}
+
+/*教学优势结束*/
+/*校园风光开始*/
+.LFY_Campus_Scenery{
+	max-width: 1000px;
+	max-height: 318px;
+	margin: 0 auto;
+	margin:0 -15px;
+	position: relative;
+}
+.LFY_slideshow{
+	padding: 0;
+	max-height:303px;
+}
+.LFY_slideshow .carousel-indicators{
+	background: black;
+	width: 100%;
+	height: 15%;
+	opacity: 0.6;
+	left: 30%;
+	bottom: 0;
+}
+.LFY_slideshow .carousel-indicators li{
+	margin-bottom: -2%;
+}
+@media screen and (max-width:768px ) {
+	.LFY_slideshow .carousel-inner .item .carousel-caption{
+		margin-bottom: -10%;
+	}
+}
+@media screen and (min-width:768px ) {
+	.LFY_slideshow .carousel-inner .item .carousel-caption{
+		margin-bottom: -3%;
+	}
+}
+@media screen and (min-width:970px ) {
+	.LFY_slideshow .carousel-inner .item .carousel-caption{
+		margin-bottom: -6%;
+	}
+}
+.LFY_introduce{
+	box-shadow: 0 0 3px rgba(0,0,0,.2);
+	padding: 0;
+}
+.LFY_introduce ul{
+	padding-top: 13px;
+}
+.LFY_introduce ul li a{
+	display: block;
+	background: #f9b131;
+	text-align: center;
+	line-height: 200%;
+	border-radius: 5px;
+	color: #333;
+	font-size:1.2em;
+}
+.LFY_introduce ul li a:hover{
+	text-decoration: none;
+}
+.LFY_introduce div{
+	border-top: 1px solid #CCD3DD;
+	margin-top: 8px;
+	margin-bottom: 6px;
+}
+.LFY_introduce ol{
+	vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  line-height: 1.7;
+  text-align: justify;
+  text-indent: 2em;
+}
+.LFY_introduce ol a{
+	text-indent: 0em;
+	color: #333;
+}
+.LFY_introduce ol a:hover{
+	text-decoration: none;
+}
+.Dg_pand{
+	padding:0 20px;
+}
+/*校园风光结束*/
+.Dg_tj{
+height:42px;
+border:none;
+}
+.Dg_teg{
+height:36px;
+line-height:36px;
+border-bottom:1px solid #CCD3DD;
+}
+/*校内系统*/
+.schSystem{
+	padding:12px 0 52px;
+	height: 47px;
+	font-size:1.2em;
+	line-height: 47px;
+   	text-align: center;
+}
+.schSystem_bg{
+	height:47px;
+	background-image:url(../img/major01.png);
+	box-shadow: 0 0 3px rgba(0,0,0,.2);
+	border-radius: 2px;
+}
+@media(max-width:1200px){
+	.schSystem_bg,.schSystem_bg .bg{
+		height:36px !important;
+		box-shadow:none;
+		line-height: 36px;
+		background:url("../img/misc.png") 0 -85px no-repeat;
+		border: none;
+	}
+}
+
+.schSystem_bg .bg{
+	width:160px;
+	height:47px;
+	background: url(../img/icon.png) 12px -508px no-repeat;
+}
+@media(min-width:1200px){
+			.schSystem_bg .bg{
+			width:160px;
+			height:47px;
+			background: url(../img/icon.png) 12px -503px no-repeat;
+		}
+}
+.schSystem_bg ul li{
+	min-width:160px;
+}
+.schSystem_bg ul{
+	box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+.schSystem_bg .bg span{
+	color: #164575;
+}
+.schSystem_bg .bg a{
+	color:#157585;
+}
+.func_botton a{
+	text-align: center;
+	color:#fff;
+}
+ .func_botton .hover_a{
+			background-color:#202e57;
+		}
+ .func_botton .hover_a:hover{
+			background-color:#202e57;
+		}
+#major-tab li a{
+	background-color:transparent;
+}
+		
+/*校内系统结束*/
+/*<!-- 左侧分享 -->*/
+     .share {
+	 	position: fixed;
+	 	top: 16%;
+	 	left: -230px;
+	 	z-index: 999;
+     }
+	 .share_box {
+	 	width: 230px;
+	 	height: 325px;
+	 	color: rgb(90,90,90);
+	 	position: relative;
+	 	background-color: red;
+	 }
+	 .share_right {
+        position: absolute;
+        right: -27px;
+        top: 17%;
+        width: 30px;
+        height: 90px;
+        background-color: rgb(70,119,230);
+        text-align: center;
+        cursor: pointer;
+        border-radius: 0 5px 5px 0;
+	 }
+	 .share_right p {
+	    margin-top: 19px;
+	 	font-size: 17px;
+	 	color: white;
+	 }
+	 .share_box .share_top {
+	 	width: 100%;
+	 	height: 30px;
+	 	background-color: rgb(246,246,246);
+	 	line-height: 30px;
+	 }
+
+	  .share_box .share_center {
+	  	width: 100%;
+	  	height: 265px;
+	  	overflow: hidden;
+	  	background-color: white;
+	  }
+	  .share_box .share_center .share_platform {
+	  	 width: 100%;
+         height: 100%;
+         margin-left: 18px;
+	  }
+	  .share_box .share_center .share_platform a {
+	  	display: inline-block;
+	  	width: 100px;
+	  	height: 20px;
+	  	line-height: 20px;
+	    text-indent: 10px;
+	  }
+	  .share_box .share_bottom {
+	  	width: 100%;
+	  	height: 30px;
+	  	background-color: rgb(246,246,246);
+	  	
+	  }
+	  .share_box .share_bottom a{
+        float: right;
+	  }
+/*<!-- 左侧分享结束 -->*/
+.more{
+	font-family: "simsun";
+	font-size:0.8em; 
+}
+.guide_link,.intro_text,#tab-news h3,#tab-news p,.Dg_nev ul li,.Dg_pand p,.Dg_Text_1 p{
+	font-family: "simsun";
+	font-size:0.95em;
+}
+.JHpic{
+	max-width:110%;
+}
+.content{
+	padding-top: 5px;
+}

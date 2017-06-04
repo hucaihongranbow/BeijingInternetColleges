@@ -1,0 +1,130 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    color: #333;
+    font-family: simsun;
+  }
+
+/*.teach_box{
+	margin: 10px auto;
+	width: 1000px;
+	height: 747px;
+    border: 1px solid #CCD3DD;
+    background: url(../img/major02.jpg);
+    zoom: 1;
+    overflow: hidden;
+   /* padding: 0 45px 40px;*/
+/*}*/
+.peiyang{
+	width: 908px;
+	height: 348px;
+	margin: 20px auto;
+	/*border:1px solid red;*/
+}
+.peiyang .peiyang_left{
+    width: 440px;
+    height: 263px;
+    float: left;
+    margin-top: 30px;
+    /*border:1px solid red;*/
+
+}
+.peiyang .peiyang_right{
+    width: 450px;
+    height: 298px;
+    float: left;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px gray;
+}
+.peiyang .peiyang_right .teach_pic{
+	width: 430px;
+	height: 278px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.peiyang .peiyang_left h2{
+    width: 440px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333;
+    font-family: simsun;
+   
+}
+.peiyang .peiyang_left p{
+	width: 440px;
+	height:64px; 
+	color: #333;
+	font-size: 12px;
+    font-family: simsun;
+	text-indent: 2em;
+}
+.peiyang .peiyang_left p:last-child{
+	
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	left: 200px;
+	top: -184px;	
+    font-family: simsun;	
+}
+.peiyang .peiyang_left p:nth-last-child(2){
+	width: 440px;
+	height:64px; 
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	left: 10px;
+	top: -110px;		
+    font-family: simsun;	
+}
+.peiyang .peiyang_left p:nth-last-child(3){
+	width: 440px;
+	height:64px; 
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	left: 200px;
+	top: -76px;		
+    font-family: simsun;	
+}
+.peiyang .peiyang_left p:nth-last-child(4){
+	width: 440px;
+	height:64px; 
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	left: 10px;
+	top: 0px;		
+    font-family: simsun;	
+}
+
+.teach_box .hengxian{
+    width: 80%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

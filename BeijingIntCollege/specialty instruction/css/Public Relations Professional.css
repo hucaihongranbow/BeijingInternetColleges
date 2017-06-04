@@ -1,0 +1,400 @@
+
+a ,a:hover {
+	text-decoration: none;
+	color: #333;
+}
+.container {
+	max-width: 1000px;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+body {
+	min-width: 330px;
+	overflow-x: hidden;
+}
+.row{
+	width: 100%;
+	margin-left:0px; 
+}
+.row{
+	padding: 0;
+}
+
+
+.share {
+    	 	position: fixed;
+    	 	top: 16%;
+    	 	z-index: 9999;
+    	 	left: -230px;
+         }
+    	 .share_box {
+    	 	width: 230px;
+    	 	height: 325px;
+    	 	color: rgb(90,90,90);
+    	 	position: relative;
+    	 	background-color: red;
+    	 }
+    	 .share_right {
+            position: absolute;
+            right: -27px;
+            top: 17%;
+            width: 30px;
+            height: 90px;
+            background-color: rgb(70,119,230);
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+    	 }
+    	 .share_right p {
+    	    margin-top: 19px;
+    	 	font-size: 17px;
+    	 	color: white;
+
+    	 }
+    	 .share_box .share_top {
+    	 	width: 100%;
+    	 	height: 30px;
+    	 	background-color: rgb(246,246,246);
+    	 	line-height: 30px;
+    	 }
+    
+    	  .share_box .share_center {
+    	  	width: 100%;
+    	  	height: 265px;
+    	  	overflow: hidden;
+    	  	background-color: white;
+    	  }
+    	  .share_box .share_center .share_platform {
+    	  	 width: 100%;
+             height: 100%;
+             margin-left: 18px;
+    	  }
+    	  .share_box .share_center .share_platform a {
+    	  	display: inline-block;
+    	  	width: 94px;
+    	  	height: 21px;
+    	  	line-height: 21px;
+    	    text-indent: 10px;
+    	  }
+    	  .share_box .share_bottom {
+    	  	width: 100%;
+    	  	height: 30px;
+    	  	background-color: rgb(246,246,246);
+    	  	
+    	  }
+    	  .share_box .share_bottom a{
+            float: right;
+    	  }
+
+/*头部开始*/
+header {
+	padding-top: 30px;
+	background: url(../img/header01.jpg) no-repeat;
+	background-size: cover;
+}
+header form > div {
+	border: 5px solid #074887;
+}
+header form > div > span {
+	cursor: pointer;
+}
+header ul.container-fluid {
+	background-color: #104F96;
+	border: none;
+}
+header div#divNav a ,header ul.container-fluid div.navbar-header > a {
+		color: #fff;
+	}
+header li.dropdown ul > li > a {
+	background-color: #283B63;
+	margin-bottom: 1px;
+}
+header li.dropdown ul > li > a.lastChild {
+	margin-bottom: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	header div#divNav a ,header ul.container div.navbar-header > a.navbar-brand {
+		font-size: 1em;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	header div#divNav a ,header ul.container-fluid div.navbar-header > a {
+		font-size: 1.45em;
+	}
+}
+@media screen and (min-width: 1200px) {
+	header div#divNav a ,header ul.container-fluid div.navbar-header > a {
+		font-size: 1.45em;
+	}
+}
+@media screen and (min-width: 768px) {
+	header div#divNav a.apply {
+		background-color: #FCC433;
+		color: black;
+	}
+	header > ul{
+		position: relative;
+		top: 10px;
+	}
+}
+@media screen and (max-width: 768px) {
+	header {
+		min-height: 246px;
+	}
+	footer {
+		text-align: center;
+	}
+}
+header div#divNav a:hover ,header ul.container-fluid div.navbar-header > a:hover {
+	background-color: #283B63;
+	color: #fff;
+}
+/*头部结束*/
+article .container{
+	padding: 0;
+}
+article .container .strip{
+	width: 100%;
+	background: url("../img/mbx01.png");
+	height: 28px;
+    line-height: 28px;
+    margin: 0 0 10px;
+    zoom: 1;
+    overflow: hidden;
+    font-size: 0.9em;
+    clear: both;
+    background-size: 100% 28px;
+   /* position: relative;
+    left: 15px;*/
+}
+article .container .strip .home{
+	background: url(../img/bdsAA.png) 0px -148px no-repeat;
+	padding: 0px 0px 0px 15px;
+	margin-left: 25px
+}
+article .container .strip  i{
+	font-size: 1.158em;
+}
+@media screen and (max-width: 768px) {
+	article .container .strip {
+		font-size: 1.158em;
+	}
+	
+}
+
+
+
+article .container .code{
+	width: 100%;
+	height: 38px;
+	float: left;
+    margin: 0 0 10px;
+    overflow: hidden;
+    /*position: relative;
+    left: 15px;*/
+	background:url("../img/9k=1.jpg") no-repeat;
+	background-size: 100% 100%; 
+}
+ .code ul li{
+	float: left;
+    margin: 0 10px;
+    color: #fff;
+    line-height: 38px;
+    font-size: 1.2em;
+}
+ .code ul li.yidong{
+	 margin-left: -35px;
+}
+@media screen and (max-width: 768px) {
+  article .container .code ul li:nth-child(1){
+		display: none;
+	}
+ article .container .code ul li:nth-child(3){
+		display: none;
+	}
+ article .container .code ul li:nth-child(2){
+        float: left;     
+        font-size: 1.2em;
+        line-height: 38px;
+        margin: 0 -35px;
+	}
+	
+}
+ article .container .new,.education,.employment {
+   width: 256px;
+   height: 458px;
+   float: left;
+   background: url(../img/9k=.jpg) no-repeat;
+   background-size: 100% 100%;
+   padding: 18px;
+   border: 1px solid #CCD3DD;
+   
+}
+
+.education{
+	width:458px;
+	margin:  0 10px 10px 14px;
+
+}
+.employment{
+	float: right;
+
+}
+dl h2{
+	width: 100%;
+    height: 55px;
+    background-size: auto 55px;
+    line-height: 999;
+    overflow: hidden;
+    margin: 0 0 18px;
+}
+ dl dd{
+ 	font-size: 0.8895em;
+    text-indent: 2em;
+    line-height: 2;
+ }
+ dl dd p{
+ 	margin-top: -10px;
+ }
+ dl dd p.xs{
+ 	margin-top: 10px;
+ }
+.new h2{
+	background: url(../img/major06.png) no-repeat;
+}
+.education h2{
+	background: url(../img/major04.png) no-repeat;
+}
+.employment h2{
+	background: url(../img/major03.png) no-repeat;
+}
+@media screen and (max-width: 1197px) {
+article .container .new,.education,.employment {
+		    width: 100%;
+			height: auto;
+		    margin: 10px auto;		    
+		    float: none;
+	}
+    
+	
+	dl dd{
+ 	font-size: 1.158em;
+    text-indent: 2em;
+    line-height: 2;
+    font-family: normal;
+ }
+	
+}
+
+
+
+article .container .make{
+    background: url(../img/bdsAA.png) 0px -268px ;
+    border-radius: 3px;
+    width: 100%;
+    zoom: 1;
+    width: 100%;
+    height: 37px;
+    clear: both;
+
+}
+.make ul li{
+    display: inline-block;
+    font-size: 1.125em;
+    line-height: 37px;
+    margin: 0 13px;
+}
+
+.make ul li a.arrows{
+    color: #333;
+    font-family: "microsoft yahei";
+    line-height: 42px;
+    margin-left: -15px;
+    text-decoration: none;
+    background: url(../img/bdsAA.png) 0 -323px no-repeat;
+    padding: 0 0 0 25px;
+}
+.make ul li a span{
+    position: relative;
+    top: -2px;
+}
+.make ul li.conceal{
+    display: none;
+}
+@media screen and (max-width: 1000px) {
+  article  .container .make {
+    background: #F9AB2C;
+    height: auto;
+    border-radius: 3px;
+    zoom: 1;
+    overflow: hidden;
+    clear: both;
+    line-height: 37px;
+    text-align: center;
+}
+  article .container .make ul li {
+    width: 50%;
+    text-align: left;
+    font-size: 1.3em;
+    margin: 0;
+    float: left;
+    text-indent: 1em;
+}
+.make ul li.conceal{
+    display: block;
+}
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  article  .container .make {
+    background: #F9AB2C;
+    height: auto;
+    border-radius: 3px;
+    zoom: 1;
+    overflow: hidden;
+    clear: both;
+    line-height: 37px;
+    text-align: center;
+}
+  article .container .make ul li {
+    width: 100%;
+    text-align: left;
+    font-size: 1.3em;
+    margin: 0;
+    float: left;
+    text-indent: 1em;
+}
+.make ul li.conceal{
+    display: block;
+}
+}
+
+
+
+
+
+
+
+/*底部开始*/
+footer {
+	background: url('../img/footer01.jpg') no-repeat;
+	background-size: cover;
+	padding: 30px 0;
+}
+footer ul li a {
+	color: #333;
+}
+footer img#weixin_scan {
+	position: absolute;
+	top: -20px;
+	left: -2px;
+	max-height: 136px;
+	display: none;
+	_display:none;
+}
+/*底部结束*/

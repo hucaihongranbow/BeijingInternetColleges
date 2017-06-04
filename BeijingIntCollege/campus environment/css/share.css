@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.share {
+	position: fixed;
+	top: 16%;
+	left: 0px;
+
+}
+.share_box {
+	width: 0px;
+	height: 325px;
+	color: rgb(90,90,90);
+	position: relative;
+	background-color: red;
+overflow: hidden;
+}
+.share_right {
+    position: absolute;
+    right: -27px;
+    top: 17%;
+    width: 30px;
+    height: 90px;
+    background-color: rgb(70,119,230);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.share_right p {
+margin-top: 19px;
+	font-size: 17px;
+	color: white;
+}
+.share_box .share_top {
+	width: 100%;
+	height: 30px;
+	background-color: rgb(246,246,246);
+	line-height: 30px;
+}
+
+.share_box .share_center {
+	width: 100%;
+	height: 265px;
+	overflow: hidden;
+	background-color: white;
+}
+.share_box .share_center .share_platform {
+	 width: 100%;
+ height: 100%;
+ margin-left: 18px;
+}
+.share_box .share_center .share_platform a {
+	display: inline-block;
+	width: 88px;
+	height: 21px;
+	line-height: 21px;
+text-indent: 10px;
+}
+.share_box .share_bottom {
+	width: 100%;
+	height: 30px;
+	background-color: rgb(246,246,246);
+	
+}
+.share_box .share_bottom a{ 
+float: right;
+}

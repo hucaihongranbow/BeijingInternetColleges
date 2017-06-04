@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+    <link rel="stylesheet" type="text/css" href="css/Content_lis.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/page.js"></script> 
+    <title>学院动态</title>
+    <!--[if lt IE 9]>
+      <script src="js/IEjs/html5shiv.min.js"></script>
+      <script src="js/IEjs/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    .contai{
+        width: 100%;
+    }
+   .contai ul li{
+        padding: 0;
+    }
+    .input-group{
+        margin: 13px;
+    }
+     .hidden_share {
+            position: fixed;
+            top: 16%;
+            left: -230px;
+         }
+         .share {
+            position: fixed;
+            top: 16%;
+            left: -230px;
+         }
+         .share_box {
+            width: 230px;
+            height: 325px;
+            color: rgb(90,90,90);
+            position: relative;
+            background-color: red;
+         }
+         .share_right {
+            position: absolute;
+            right: -27px;
+            top: 17%;
+            width: 30px;
+            height: 90px;
+            background-color: rgb(70,119,230);
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+         }
+         .share_right p {
+            margin-top: 19px;
+            font-size: 17px;
+            color: white;
+         }
+         .share_box .share_top {
+            width: 100%;
+            height: 30px;
+            background-color: rgb(246,246,246);
+            line-height: 30px;
+         }
+    
+          .share_box .share_center {
+            width: 100%;
+            height: 265px;
+            overflow: hidden;
+            background-color: white;
+          }
+          .share_box .share_center .share_platform {
+             width: 100%;
+             height: 100%;
+             margin-left: 18px;
+          }
+          .share_box .share_center .share_platform a {
+            display: inline-block;
+            width: 84px;
+            height: 21px;
+            line-height: 21px;
+            /*text-indent: 10px;*/
+          }
+          .share_box .share_bottom {
+            width: 100%;
+            height: 30px;
+            background-color: rgb(246,246,246);
+            
+          }
+          .share_box .share_bottom a{
+            float: right;
+          }
+
+          .bdimgshare-bg{
+            width:80%;
+          }
+    </style>
+</head>
+<body>
+	<!-- 头部开始 -->
+    <header class="container-fluid">
+    	<div class="container">
+    		<div class="col-sm-4 col-xs-12">
+    			<img src="img/logo.png" class="img-responsive"/>
+    		</div>
+    		<div class="col-sm-4 col-sm-offset-4 col-xs-12">
+    			<p class="row"></p>
+    			<p class="row">
+    				<form class="form-horizontal">
+    					<div class="col-sm-12 col-xs-10 col-xs-offset-2 input-group">
+	    					<input type="text" name="headerSearch" id="headerSearch" placeholder="搜索感兴趣的内容" class="form-control" />
+	    					<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+	    				</div>
+    				</form>
+    			</p>
+    		</div>
+    	</div>
+    	<ul class="navbar navbar-default container-fluid col-sm-11 col-sm-offset-1 col-md-10 col-md-offset-2 col-lg-8 col-lg-offset-4">
+			<div class="navbar-header">
+				<a href="../index/index.html" class="navbar-brand">首页</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#divNav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="divNav" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="true">学院概况</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="padding: 1px 0 0;">
+                <li><a href="../general situation/brief-introduction.html">学院简介</a></li>
+                <li><a href="../general situation/Teaching Feature.html">教学特色</a></li>
+                <li><a href="../general situation/xydt.html" class="lastChild">学院动态</a></li>
+             </ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" id="dropdownMenu2" aria-haspopup="true" aria-expanded="true">专业介绍</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu2" style="padding: 1px 0 0;">
+                <li><a href="../specialty instruction/news gathering and editing.html">新闻采编与制作</a></li>
+                <li><a href="../specialty instruction/mobile application.html">移动应用开发</a></li>
+                <li><a href="../specialty instruction/information safety.html">信息安全与管理</a></li>
+                <li><a href="../specialty instruction/film and television.html">广播影视节目制作</a></li>
+                <li><a href="../specialty instruction/visual communication.html">视觉传播设计与制作</a></li>
+                <li><a href="../specialty instruction/software technology.html" class="lastChild">软件技术</a></li>
+             </ul>
+					</li>
+					<li class="dropdown">
+            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" id="dropdownMenu3" aria-haspopup="true" aria-expanded="true">校园环境</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu3" style="padding: 1px 0 0;">
+                <li><a href="../campus environment/campus scenery.html">校园风光</a></li>
+                <li><a href="../campus environment/hardware facility.html">硬件设施</a></li>
+                <li><a href="../campus environment/Style facilities.html">文体设施</a></li>
+                <li><a href="../campus environment/life condition.html">生活条件</a></li>
+                <li><a href="../campus environment/landscape.html" class="lastChild">周边景色</a></li>
+             </ul>
+          </li>
+					<li class="dropdown">
+            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" id="dropdownMenu4" aria-haspopup="true" aria-expanded="true">就业合作</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu4" style="padding: 1px 0 0;">
+                <li><a href="../Enrollment_and_job/jiuye.html" class="lastChild">实习就业</a></li>
+             </ul>
+          </li>
+					<li class="dropdown">
+            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" id="dropdownMenu5" aria-haspopup="true" aria-expanded="true">招生信息</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu5" style="padding: 1px 0 0;">
+                <li><a href="../Enrollment_and_job/zsdt.html" class="lastChild">招生动态</a></li>
+             </ul>
+          </li>
+					<li><a href="../baoming-master/html/from1.html" class="apply">我要报名</a></li>
+				</ul>
+			</div>
+		</ul>
+    </header>
+    <!-- 头部结束 -->
+
+    <!-- 中间部分学校概括开始 -->
+<div class="container contai">
+    <div class="row">
+        <div class="col-md-12 col-xs-12 contai_tiao">
+              <a href="/index.html" class="home"><a href="">首页</a> </a><span>> </span><span>学院概况 </span><span>> </span><span>学院动态</span><span> </span><span></span>
+        </div>
+    </div>
+  <ul id="demoContent" class="row"></ul>
+  <ol class="page" id="page"></ol>
+</div>
+<!-- 左边分享开始 -->
+<div class="hidden_share">
+     <div class="share">
+        <div class="share_box">
+            <div class="share_top">
+                <p>&nbsp;&nbsp;分享到</p>
+            </div>
+            <div class="bdsharebuttonbox share_center">
+              <div class="share_platform">
+                <a class="bds_mshare" data-cmd="mshare">一键分享</a>
+                <a class="bds_qzone" data-cmd="qzone">QQ空间</a>
+                <a class="bds_tsina" data-cmd="tsina">新浪微博</a>
+                <a class="bds_bdysc" data-cmd="bdysc">百度云收藏</a>
+                <a class="bds_weixin" data-cmd="weixin">微信</a>
+                <a class="bds_renren" data-cmd="renren">人人网</a>
+                <a class="bds_tqq" data-cmd="tqq">腾讯微博</a>
+                <a class="bds_bdxc" data-cmd="bdxc">百度相册</a>
+                <a class="bds_kaixin001" data-cmd="kaixin001">开心网</a>
+                <a class="bds_tqf" data-cmd="tqf">腾讯朋友</a>
+                <a class="bds_tieba" data-cmd="tieba">百度贴吧</a>
+                <a class="bds_douban" data-cmd="douban">豆瓣网</a>
+                <a class="bds_bdhome" data-cmd="bdhome">百度新首页</a>
+                <a class="bds_sqq" data-cmd="sqq">QQ好友</a>
+                <a class="bds_thx" data-cmd="thx">和讯微博</a>
+                <a class="bds_ibaidu" data-cmd="ibaidu">百度中心</a>
+              </div>
+            </div>
+            <div class="bdsharebuttonbox share_bottom">
+                <a data-cmd="more">&nbsp;&nbsp;&nbsp;更多...</a>
+            </div>
+        </div>
+        <div class="share_right"><p>分享</p></div>
+    </div>
+</div>
+<!-- 左边分享结束 -->
+    <script type="text/javascript">
+    var datas=[
+    {"title":"关于2017届毕业生办理毕业申请和离校手续的通知","name":"为确保2017级毕业生工作顺利进行，现将毕业生办理毕业申请及离校的有关事项通知如下","price":"../Enrollment_and_job/Model_four_second1.html","img_sm":"2y81ubh2789.jpg","material":"更多"},
+    {"title":"从迷茫到自信 一年时间他是这样改变的","name":"他曾和很多初到大学的学子一样，迷茫不安，对专业不了解，觉得自己什么都不懂。经过一年的学习，他现在自信、乐观、找到了未来的人生方向。","price":"Model_four_second2.html","img_sm":"ur8oxebuimg_2551.jpg","material":"更多"},
+    {"title":"“你是人间四月天”摄影摄像大赛之公益小短片《无所求 是得》","name":"北北今天为大家隆重推荐刘远涛同学的公益小短片《无所求 是得》。片中讲的是一个善良的女孩，她不求回报地帮助别人,","price":"../Enrollment_and_job/Model_four_second3.html","img_sm":"l80tgr6w640.webp.jpg","material":"更多"},
+    {"title":"北网信息安全与管理专业的师生参加了2017年北京国际互联网科技博览会","name":"4月26日，北京网络职业学院信息安全与管理专业的师生参加了在北京展览馆举行的“2017年北京国际互联网科技博览会暨世界网络安全大会”。","price":"Model_Tow_Mais_1.html","img_sm":"yv8pg7bm2.jpg","material":"更多"},
+    {"title":"原创校园系列微喜剧《北游记》强势来袭","name":"这部原创校园系列微喜剧是16级广播影视制作专业学生的课堂习作，他们把经典影视作品中的桥段进行翻拍，再剪辑制作成喜感十足的短视频，效果真是一级棒！","price":"../Enrollment_and_job/Model_Tow_Mais_2.html","img_sm":"twjus03v0@20(2).gif","material":"更多"},
+    {"title":"北网学生走进燕山福海养老院为老人送温暖","name":"走进养老院，迎接同学们的是老人们慈祥的面容，他们有的已届耄耋之年，有的行动不便坐着轮椅，但是得知北网的同学们要来，老人们纷纷出来迎接。","price":"../Enrollment_and_job/Model_Tow_Mais_3.html","img_sm":"5e8a5slh1webp.jpg","material":"更多"},
+     {"title":"北京网络职业学院青年志愿者敬老院公益活动倡议书","name":"我们向全校同学发出倡议，让我们一起在公益事业中挥洒青春的热情，为需要帮助的老人送去爱心和温暖。","price":"../Enrollment_and_job/Model_Tow_Mais_4.html","img_sm":"img_8969.jpg","material":"更多"},
+      {"title":"北网“你是人间四月天”摄影摄像大赛开始啦!","name":"北网校园春色摄影摄像大赛开始啦！喜欢拍照，热爱自制短视频的童鞋们，赶快拿起你的手机、相机，一起追随春的步伐，将北网的校园春色收入“画”中，参加我们的","price":"../Enrollment_and_job/Model_Tow_Mais_5.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"北京市专家组走进北网课堂 评估并指导我院教学工作","name":"4月6日，北京市高等职业院校课堂教学诊断和现状调研听课组的专家莅临我院指导教学教研工作，他们走进北网课堂并与教师和学生代表座谈，对我校的教学工作进行了","price":"../Enrollment_and_job/Model_Tow_Mais_6.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"北网2017校园拔河比赛16级代表队夺冠","name":"此次比赛各年级都派出了代表队，每队参赛选手为是15人。比赛采用3轮次、积分循环制，每轮次三局两胜，胜队积一分，积分最高的队伍获胜。如果出现最高积分相同的","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"远离网络诈骗，窦店派出所警官来北网宣讲安全防范知识","name":"3月8日下午，房山区窦店派出所的马金坡警官来到北京网络职业学院，为我校师生做了一场生动的安全知识讲座。马警官提醒同学们要提高警惕，远离网络诈骗，注意人","price":"../Enrollment_and_job/enrolStudentsThree2.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"我院学生参与后期剪辑的电影《等风来》 在国际微电影大赛中获奖","name":"北网影视后期制作专业学生吕超界、陈清鑫参与剪辑的电影《等风来》在首届中国金风筝国际微电影大赛上获得优秀影片和最佳新作两大奖项，他们优异的表现得到业内","price":"../Enrollment_and_job/enrolStudentsThree3.html","img_sm":"img_8969.jpg","material":"更多"},
+
+
+      {"title":"2016-2017学年第二学期学生选课缴费通知","name":"根据校历安排，学生于2016年12月30日放假，2017年2月27日返校，2017年3月6日正式上课。","price":"../Enrollment_and_job/enrolStudentsThree4.html","img_sm":"img_8969.jpg","material":"更多"},
+      {"title":"期末考试准备工作有序进行中!","name":"北京网络职业学院2016-2017学年第一学期期末考试时间为12月26日—12月30日。","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"“青春年华”文艺晚会圆满落幕","name":"总是有许多的遗憾，是关于青春的。那些最美年华里的相遇，那些青春里的不知所措，都被勾勒成了一幅幅画。","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"关于文艺汇演的通知","name":"为迎接2017年的到来，丰富校园文化生活，增强全校同学的凝聚力，总结一年来我校校园文化活动的经验，提供一个大家相互沟通的舞台，营造校园迎新年的氛围，激励","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"关于2016-2017学年第一学期课堂教学质量学生评价通知","name":"根据《课堂教学质量学生评价管理办法》，安排第16周进行教师课堂教学质量评价活动。","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"关于开展征文活动的通知","name":"本次征文活动希望全体教职员工和学生踊跃参加。","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+
+
+     {"title":"关于2015-2016学年优秀学生奖学金评选公示","name":"根据优秀学生奖学金评定的相关办法，现评出2013、2014、2015级优秀学生奖学金获得者23名，名单公布如下。","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+      {"title":"本周教师教学公开课交流活动顺利举行","name":"本次公开课试讲通过集体听课，现场点评和观摩学习，为我院教师搭建学习、交流、研讨的平台，为教师专业成长、教学水平及教育研究能力的增强提供了有力支持，","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"关于表彰2016-2017学年第一学期上半学期优秀班级、优秀学生、优秀班主任的通知","name":"希望受到表彰的同学和班集体，在今后的工作和学习中，谦虚谨慎，戒骄戒躁，发扬成绩，再接再励，继续发挥模范带头作用；同时希望全校学生以他们为榜样，刻苦","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"晚会倒计时 合唱排练侧记","name":"看完各年级的精心准备，想必大家对12月中旬的晚会更加期待了吧! 今后将持续为您带来晚会准备工作的相关后续报道！","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"13.15级联队获得2016篮球友谊赛冠军","name":"13.15级联队在比赛中以51:15的大比分差距获得胜利。根据赛制，13.15级联队凭借2胜优势，总积分排行榜位列首位，最终夺得北京网络职业学院篮球友谊赛冠军。","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+    {"title":"“两学一做”系列党课考试将在本周末进行","name":"青年党员教师宋晓丽、黄荣在9号楼学术报告厅分别为学生做了内容丰富的报告。","price":"../Enrollment_and_job/enrolStudentsThree1.html","img_sm":"img_8969.jpg","material":"更多"},
+  
+];
+var options={
+  "id":"page",//显示页码的元素
+  "data":datas,//显示数据
+    "maxshowpageitem":9,//最多显示的页码个数
+    "pagelistcount":6,//每页显示数据个数
+    "callBack":function(result){
+           var cHtml="";
+        for(var i=0;i<result.length;i++){
+            cHtml+="<li class='col-md-6 col-xs-12 Content_lis row'><div class='img_div col-md-6 col-xs-12'><img  class='imgss col-xs-12' src="+"img/"+result[i].img_sm+"></div>"+"<div class='img_div2 col-md-6 col-xs-12'><a href="+result[i].price+" target= '_Blank' class="+"fist_a"+" >"+ result[i].title+"</a>"+"<p  class="+"second_p col-md-6 col-xs-12"+" >"+ result[i].name+"</p><a href="+result[i].price+" target= '_Blank' + class="+"second_a"+" >"+ result[i].material+"</a></div></li>";//处理数据
+        $("#demoContent").html(cHtml);//将数据增加到页面中
+        $("#demoContent").addClass("col-xs-12 row");
+        $("#demoContent li").addClass('Content_lis row');
+        $("#demoContent li img").addClass("img-responsive"); 
+       }    
+    } 
+} 
+page.init(datas.length,1,options);
+
+window._bd_share_config={
+            "common":{
+                "bdSnsKey":{},
+                "bdText":"",
+                "bdMini":"2",
+                "bdPic":"",
+                "bdStyle":"0",
+                "bdSize":"16"},
+                "share":{},
+            "image":{
+                "viewList":[
+                "qzone",
+                "tsina",
+                "tqq",
+                "renren",
+                "weixin"],
+                "viewText":"分享到：",
+                "viewSize":"16"
+            }
+            };
+            with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+
+        $(".share").mouseenter(function (){
+            $(".share").animate({'left':'0'},300);
+        });
+        $(".share").mouseleave(function(){
+                $(".share").animate({'left':'-230px'},300);
+              });
+     
+
+    </script>
+    <!-- 底部开始 -->
+    <footer class="container-fluid">
+    	<div class="container">
+    		<div class="col-lg-3 col-lg-offset-1 hidden-xs">
+    			<img src="img/footer02.png" id="weixin_scan" class="img-responsive"/>
+    			<p>校办电话：010-81303025</p>
+				<p>招生电话：010-81303630</p>
+				<p>邮箱：wlzyxy@126.com</p>
+				<p>互动留言</p>
+				<a href="javascript:;"><img src="img/weibo.png"/></a>
+				<a href="javascript:;"><img src="img/wechat.png" id="wenxin"/></a>
+				<a href="javascript:;"><img src="img/qq.png"/></a>
+				<p></p>
+    		</div>
+    		<div class="col-lg-4">
+    			<p>校址：北京市房山区窦大路12号</p>
+    			<p class="hidden-sm hidden-md hidden-lg">电话：8130325</p>
+				<p>邮编：102433</p>
+				<p class="hidden-xs">公共交通：952路、房28路直达校门口</p>
+				<p class="hidden-xs">自驾路线：自京港澳（G4）高速公路下行至阎村收费站下高速，沿京周路西行至大窦桥，桥下左转南行大约3公里即到</p>
+				<p></p>
+    		</div>
+    		<div class="col-lg-3 col-lg-offset-1 hidden-xs">
+    			<ul class="list-unstyled">
+					<li>
+						<a href="javascript:;" style="display: none;_display:none">首页</a>
+					</li>
+					<li>
+						<a href="javascript:;">学校概况：</a>
+						<a href="javascript:;">学院简介</a>
+						<a href="javascript:;">教学特色</a>
+						<a href="javascript:;">学院动态</a>
+					</li>
+					<li>
+						<a href="javascript:;">专业介绍：</a>
+						<a href="javascript:;">新闻采编与制作</a>
+						<a href="javascript:;">移动应用开发</a>
+						<a href="javascript:;">信息安全与管理</a>
+						<a href="javascript:;">广播影视节目制作</a>
+						<a href="javascript:;">视觉传播设计与制作</a>
+						<a href="javascript:;">软件技术</a>
+					</li>
+					<li>
+						<a href="javascript:;">校园环境：</a>
+						<a href="javascript:;">校园风光</a>
+						<a href="javascript:;">硬件设施</a>
+						<a href="javascript:;">文体设施</a>
+						<a href="javascript:;">生活条件</a>
+						<a href="javascript:;">周边景色</a>
+					</li>
+					<li>
+						<a href="javascript:;">就业合作：</a>
+						<a href="javascript:;">实习就业</a>
+					</li>
+					<li>
+						<a href="javascript:;">招生信息：</a>
+						<a href="javascript:;">招生动态</a>
+					</li>
+					<li>
+						<a href="javascript:;">我要报名</a>
+					</li>
+				</ul>
+    		</div>
+    		<div class="clearfix"></div>
+    		<p></p>
+    		<div class="row text-center hidden-xs">
+    			<a href="index.html">返回首页</a>
+    		</div>
+    		<p></p>
+    		<div class="row text-center">
+    			<p><span>Copyright©2015 Beijing Internet College </span><span class="hidden-xs">北京网络职业学院维护，校区地址：北京市房山区窦大路12号 邮编：102433</span></p>
+				<p class="hidden-xs">教育网站备案号： <a href="javascript:;">京ICP备05026716号</a> 非经营性网站主办单位有效证件号： （京）教社证字V70040</p>
+    		</div>
+    	</div>
+    </footer>
+    <!-- 底部结束 -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-hover-dropdown.min.js" ></script>
+    <script type="text/javascript" src="js/header_footer.js" ></script>
+</body>
+</html>

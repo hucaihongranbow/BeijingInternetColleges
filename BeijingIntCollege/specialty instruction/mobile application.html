@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/Public Relations Professional.css"/>
+    <title>移动应用开发</title>
+    <!--[if lt IE 9]>
+      <script src="js/IEjs/html5shiv.min.js"></script>
+      <script src="js/IEjs/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+	<div class="share">
+	<div class="share_box">
+		<div class="share_top">
+		    <p>&nbsp;&nbsp;分享到</p>
+		</div>
+		<div class="bdsharebuttonbox share_center">
+		  <div class="share_platform">
+			<a class="bds_mshare" data-cmd="mshare">一键分享</a>
+			<a class="bds_qzone" data-cmd="qzone">QQ空间</a>
+			<a class="bds_tsina" data-cmd="tsina">新浪微博</a>
+		    <a class="bds_bdysc" data-cmd="bdysc">百度云收藏</a>
+		    <a class="bds_weixin" data-cmd="weixin">微信</a>
+			<a class="bds_renren" data-cmd="renren">人人网</a>
+			<a class="bds_tqq" data-cmd="tqq">腾讯微博</a>
+			<a class="bds_bdxc" data-cmd="bdxc">百度相册</a>
+			<a class="bds_kaixin001" data-cmd="kaixin001">开心网</a>
+			<a class="bds_tqf" data-cmd="tqf">腾讯朋友</a>
+			<a class="bds_tieba" data-cmd="tieba">百度贴吧</a>
+			<a class="bds_douban" data-cmd="douban">豆瓣网</a>
+			<a class="bds_bdhome" data-cmd="bdhome">百度新首页</a>
+			<a class="bds_sqq" data-cmd="sqq">QQ好友</a>
+			<a class="bds_thx" data-cmd="thx">和讯微博</a>
+			<a class="bds_ibaidu" data-cmd="ibaidu">百度中心</a>
+		  </div>
+		</div>
+		<div class="bdsharebuttonbox share_bottom">
+	        <a data-cmd="more">&nbsp;&nbsp;&nbsp;更多...</a>
+		</div>
+	</div>
+	<div class="share_right"><p>分享</p></div>
+</div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    $(".share").mouseenter(function (){
+    	$(".share").animate({'left':'0'},300);
+    });
+    $(".share").mouseleave(function(){
+          	$(".share").animate({'left':'-230px'},300);
+          });
+
+</script>
+
+
+
+
+
+
+	<!-- 头部开始 -->
+    <header class="container-fluid">
+    	<div class="container">
+    		<div class="col-sm-4 col-xs-12">
+    			<img src="img/logo.png" class="img-responsive"/>
+    		</div>
+    		<div class="col-sm-4 col-sm-offset-4 col-xs-12">
+    			<p class="row"></p>
+    			<p class="row">
+    				<form class="form-horizontal">
+    					<div class="col-sm-12 col-xs-10 col-xs-offset-2 input-group">
+	    					<input type="text" name="headerSearch" id="headerSearch" placeholder="搜索感兴趣的内容" class="form-control" />
+	    					<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+	    				</div>
+    				</form>
+    			</p>
+    		</div>
+    	</div>
+    	<ul class="navbar navbar-default container-fluid col-sm-11 col-sm-offset-1 col-md-10 col-md-offset-2 col-lg-8 col-lg-offset-4">
+			<div class="navbar-header">
+				<a href="../index/index.html" class="navbar-brand">首页</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#divNav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="divNav" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="true">学院概况</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="padding: 1px 0 0;">
+						    <li><a href="../general situation/brief-introduction.html">学院简介</a></li>
+						    <li><a href="../general situation/Teaching Feature.html">教学特色</a></li>
+						    <li><a href="../general situation/xydt.html" class="lastChild">学院动态</a></li>
+						 </ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" id="dropdownMenu2" aria-haspopup="true" aria-expanded="true">专业介绍</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu2" style="padding: 1px 0 0;">
+						    <li><a href="news gathering and editing.html ">新闻采编与制作</a></li>
+						    <li><a href="mobile application.html">移动应用开发</a></li>
+						    <li><a href="information safety.html">信息安全与管理</a></li>
+						    <li><a href="film and television.html">广播影视节目制作</a></li>
+						    <li><a href="visual communication.html">视觉传播设计与制作</a></li>
+						    <li><a href="animation production.html">动漫制作技术</a>
+						    <li><a href="software technology.html" class="lastChild">软件技术</a></li>
+						 </ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" id="dropdownMenu3" aria-haspopup="true" aria-expanded="true">校园环境</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu3" style="padding: 1px 0 0;">
+						    <li><a href="../campus environment/campus scenery.html">校园风光</a></li>
+						    <li><a href="../campus environment/hardware facility.html">硬件设施</a></li>
+						    <li><a href="../campus environment/Style facilities.html">文体设施</a></li>
+						    <li><a href="../campus environment/life condition.html">生活条件</a></li>
+						    <li><a href="../campus environment/landscape.html" class="lastChild">周边景色</a></li>
+						 </ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" id="dropdownMenu4" aria-haspopup="true" aria-expanded="true">就业合作</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu4" style="padding: 1px 0 0;">
+						    <li><a href="../Enrollment_and_job/jiuye.html" class="lastChild">实习就业</a></li>
+						 </ul>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" id="dropdownMenu5" aria-haspopup="true" aria-expanded="true">招生信息</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu5" style="padding: 1px 0 0;">
+						    <li><a href="../Enrollment_and_job/zsdt.html" class="lastChild">招生动态</a></li>
+						 </ul>
+					</li>
+					<li><a href="../baoming-master/html/from1.html" class="apply">我要报名</a></li>
+				</ul>
+			</div>
+		</ul>
+    </header>
+    <!-- 头部结束 -->
+    <article>
+        <div class="container">
+        	<!-- 尖箭头开始 -->
+            <div class="row col-xs-12 col-md-12 col-md-12">
+		        	<div class="strip ">
+		        		<a href="" class="home">首页</a>
+		        		<i>&gt;</i>
+		        		<span>专业介绍</span>
+		        		<i>&gt;</i>
+		        		<span>移动应用开发</span>
+		        	</div>
+	 
+		        	<div class="code col-xs-12 col-md-12 col-md-12">
+		        		<ul>
+		        			<li class="yidong">专业代码：610212</li>
+		                    <li>专业名称：移动应用开发</li>
+		                    <li>专业方向：程序设计方向</li>
+		        		</ul>
+
+		        	</div>
+	            </div>
+	            <!-- 尖箭头结束 -->
+
+	            <!-- 专业方向开始-->
+	            <div class="row col-xs-12 col-md-3 col-md-12 col-lg-12">
+		        	<div class="new">
+		    		<dl>
+		    			<h2></h2>
+		    			<dd>
+		    				本专业培养能够进行手机应用软件（APP）开发的程序员或软件开发工程师。以安卓手机应用软件开发为核心技能，同时具备一般软件编程的通用技能。能够根据软件的功能设计和界面设计，进行功能模块的程序编写，形成测试版应用软件并根据测试工程师或用户的意见对程序进行优化，最终形成上线运行的手机应用软件（APP）。
+		              </dd>
+		    		</dl>	    		
+		    	</div>
+		    	<div class="education">
+		    		<dl>
+		    			<h2></h2>
+		    			<dd>
+		    				<p class="xs">&nbsp;1）JAVA语言程序设计模块</p>
+		    			    <p>	
+			                   通过JAVA语言程序设计等模块课程的实践训练学习，使学生达到熟悉IDE开发环境、精通开发语言、掌握面向对象的程序设计方法，掌握数据库的安装与部署、基本对象、SQL语言等必要的数据库知识。
+			                </p>
+			                <p>&nbsp;2）安卓（Android）应用程序设计模块</p>
+		    			    <p>	
+			                   通过JAVA WEB程序设计、Android核心基础等课程的实践训练学习，要求学生掌握程序架构、UI编程、数据存取、网络编程等Android应用开发的技能，逐步达到具备独立开发Android应用程序的能力。
+			                </p>
+			                <p>&nbsp;3）移动应用综合实训模块</p>
+		    			    <p>	
+			                   让学生熟悉更多经典项目的设计与实现思路，并在项目开发中加以灵活的整合和应用，提升学生技术和综合应用能力，拓展学生的视野和思路。
+			                </p>
+		    			</dd>
+		    		</dl>	    			    		
+		    	</div>
+		    	<div class="employment">
+		    		<dl>
+		    			<h2></h2>
+		    			<dd>
+		    				<p class="xs">&nbsp;1、互联网企业的移动应用开发程序员或工程师；</p>
+		    				<p>&nbsp;2、软件开发企业的移动应用开发程序员或工程师；</p>
+		    				<p>&nbsp;3、电商网站的移动应用开发程序员或工程师</p>
+		    			</dd>
+		    		</dl>	    			    		
+		    	</div>
+
+
+    	</div>
+           <!-- 专业方向结束-->
+           <div class="row col-xs-6 col-md-6 col-md-12">
+	           <div class="make">
+		           	 
+		           	  	<ul>
+		                  <li>
+		                    <a href="news gathering and editing.html" class="arrows">
+		                        <span>新闻采编与制作</span>
+		                    </a>
+		                </li>
+		                <li>
+		                    <a href="mobile application.html" class="arrows">
+		                        <span>移动应用开发</span>
+		                    </a>
+		                </li>
+		                 <li>
+		                    <a href="information safety.html" class="arrows">
+		                        <span> 信息安全与管理</span>
+		                    </a>
+		                </li>
+		                 <li>
+		                    <a href=" film and television.html" class="arrows">
+		                       <span> 广播影视节目制作</span>
+		                    </a>
+		                </li>
+		                 <li>
+		                    <a href="visual communication.html" class="arrows">
+		                        <span>视觉传播设计与制作</span>
+		                    </a>
+		                </li>
+		                 <li>
+		                    <a href="animation production.html" class="arrows">
+		                        <span>动漫制作技术</span>
+		                    </a>
+		                </li>
+		                <li class="conceal">
+		                    <a href="software technology.html" class="arrows">
+		                        <span>软件技术</span>
+		                    </a>
+		                </li>
+		            </ul>
+		         
+		           </div>
+           </div>
+
+        </div>
+    <article>
+
+
+  
+    <!-- 底部开始 -->
+    <footer class="container-fluid">
+    	<div class="container">
+    		<div class="col-lg-3 col-lg-offset-1 hidden-xs">
+    			<img src="img/footer02.png" id="weixin_scan" class="img-responsive"/>
+    			<p>校办电话：010-81303025</p>
+				<p>招生电话：010-81303630</p>
+				<p>邮箱：wlzyxy@126.com</p>
+				<p>互动留言</p>
+				<a href="javascript:;"><img src="img/weibo.png"/></a>
+				<a href="javascript:;"><img src="img/wechat.png" id="wenxin"/></a>
+				<a href="javascript:;"><img src="img/qq.png"/></a>
+				<p></p>
+    		</div>
+    		<div class="col-lg-4">
+    			<p>校址：北京市房山区窦大路12号</p>
+    			<p class="hidden-sm hidden-md hidden-lg">电话：8130325</p>
+				<p>邮编：102433</p>
+				<p class="hidden-xs">公共交通：952路、房28路直达校门口</p>
+				<p class="hidden-xs">自驾路线：自京港澳（G4）高速公路下行至阎村收费站下高速，沿京周路西行至大窦桥，桥下左转南行大约3公里即到</p>
+				<p></p>
+    		</div>
+    		<div class="col-lg-3 col-lg-offset-1 hidden-xs">
+    			<ul class="list-unstyled">
+					<li>
+						<a href="javascript:;" style="display: none;_display:none">首页</a>
+					</li>
+					<li>
+						<a href="javascript:;">学校概况：</a>
+						<a href="javascript:;">学院简介</a>
+						<a href="javascript:;">教学特色</a>
+						<a href="javascript:;">学院动态</a>
+					</li>
+					<li>
+						<a href="javascript:;">专业介绍：</a>
+						<a href="news gathering and editing.html">新闻采编与制作</a>
+						<a href="mobile application.html">移动应用开发</a>
+						<a href="information safety.html">信息安全与管理</a>
+						<a href="film and television.html">广播影视节目制作</a>
+						<a href="visual communication.html">视觉传播设计与制作</a>
+						<a href="animation production.html">动漫制作技术</a>
+						<a href="software technology.html">软件技术</a>
+					</li>
+					<li>
+						<a href="javascript:;">校园环境：</a>
+						<a href="javascript:;">校园风光</a>
+						<a href="javascript:;">硬件设施</a>
+						<a href="javascript:;">文体设施</a>
+						<a href="javascript:;">生活条件</a>
+						<a href="javascript:;">周边景色</a>
+					</li>
+					<li>
+						<a href="javascript:;">就业合作：</a>
+						<a href="javascript:;">实习就业</a>
+					</li>
+					<li>
+						<a href="javascript:;">招生信息：</a>
+						<a href="javascript:;">招生动态</a>
+					</li>
+					<li>
+						<a href="javascript:;">我要报名</a>
+					</li>
+				</ul>
+    		</div>
+    		<div class="clearfix"></div>
+    		<p></p>
+    		<div class="row text-center hidden-xs">
+    			<a href="index.html">返回首页</a>
+    		</div>
+    		<p></p>
+    		<div class="row text-center">
+    			<p><span>Copyright©2015 Beijing Internet College </span><span class="hidden-xs">北京网络职业学院维护，校区地址：北京市房山区窦大路12号 邮编：102433</span></p>
+				<p class="hidden-xs">教育网站备案号： <a href="javascript:;">京ICP备05026716号</a> 非经营性网站主办单位有效证件号： （京）教社证字V70040</p>
+    		</div>
+    	</div>
+    </footer>
+    <!-- 底部结束 -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-hover-dropdown.min.js" ></script>
+    <script type="text/javascript" src="js/header_footer.js" ></script>
+</body>
+</html>
