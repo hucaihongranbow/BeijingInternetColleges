@@ -1,10 +1,4 @@
 $(function () {
-
-// 校园风光轮播
-	window.onload=function(){
-		$('.carousel').carousel();
-	};
-
 // 轮播
 	 $(function(){
 		 var i=0;

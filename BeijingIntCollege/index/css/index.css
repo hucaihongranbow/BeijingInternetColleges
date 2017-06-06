@@ -438,7 +438,7 @@ ul,ol{
 }
 
 /*教学优势结束*/
-/*校园风光开始*/
+/*教学坏境开始*/
 .LFY_Campus_Scenery{
 	max-width: 1000px;
 	max-height: 318px;
@@ -448,7 +448,6 @@ ul,ol{
 }
 .LFY_slideshow{
 	padding: 0;
-	max-height:303px;
 }
 .LFY_slideshow .carousel-indicators{
 	background: black;
@@ -518,7 +517,7 @@ ul,ol{
 .Dg_pand{
 	padding:0 20px;
 }
-/*校园风光结束*/
+/*教学坏境结束*/
 .Dg_tj{
 height:42px;
 border:none;
@@ -596,7 +595,6 @@ border-bottom:1px solid #CCD3DD;
 	 	position: fixed;
 	 	top: 16%;
 	 	left: -230px;
-	 	z-index: 999;
      }
 	 .share_box {
 	 	width: 230px;
